@@ -1368,17 +1368,6 @@ Wire Wire Line
 Wire Wire Line
 	9250 4000 9300 4000
 $Comp
-L Device:Rotary_Encoder_Switch SW?
-U 1 1 5E8354DF
-P 10050 1100
-F 0 "SW?" H 10050 1467 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 10050 1376 50  0000 C CNN
-F 2 "" H 9900 1260 50  0001 C CNN
-F 3 "~" H 10050 1360 50  0001 C CNN
-	1    10050 1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-NoLED R3-F
 U 1 1 5E7C9A8E
 P 6550 3200
@@ -2313,4 +2302,15 @@ Wire Wire Line
 Connection ~ 8050 4850
 Wire Wire Line
 	8050 4850 8450 4850
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5EE60CB1
+P 7450 1150
+F 0 "J?" H 7558 1431 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 7558 1340 50  0000 C CNN
+F 2 "" H 7450 1150 50  0001 C CNN
+F 3 "~" H 7450 1150 50  0001 C CNN
+	1    7450 1150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
