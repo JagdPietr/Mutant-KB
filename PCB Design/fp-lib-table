@@ -3,4 +3,5 @@
   (lib (name random-keyboard-parts)(type KiCad)(uri D:/Misc/Github/Mutant-KB/random-keyboard-parts.pretty)(options "")(descr ""))
   (lib (name misc)(type KiCad)(uri D:/Misc/Github/Mutant-KB/fs-ei_kicad_libraries/footprints/misc.pretty)(options "")(descr ""))
   (lib (name switches)(type KiCad)(uri D:/Misc/Github/Mutant-KB/fs-ei_kicad_libraries/footprints/switches.pretty)(options "")(descr ""))
+  (lib (name ALPS_Joystick)(type KiCad)(uri D:/Misc/Github/Mutant-KB/STM32-USBHID-MultimediaPilot/PCB/ALPS_Joystick.pretty)(options "")(descr ""))
 )
