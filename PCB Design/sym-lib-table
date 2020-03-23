@@ -3,4 +3,5 @@
   (lib (name random-keyboard-parts)(type Legacy)(uri "D:/Misc/Github/Mutant-KB/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
   (lib (name analogdevices)(type Legacy)(uri D:/Misc/Github/Mutant-KB/fs-ei_kicad_libraries/symbols/analogdevices.lib)(options "")(descr ""))
   (lib (name buttons_switches)(type Legacy)(uri D:/Misc/Github/Mutant-KB/fs-ei_kicad_libraries/symbols/buttons_switches.lib)(options "")(descr ""))
+  (lib (name ALPS_Joystick)(type Legacy)(uri D:/Misc/Github/Mutant-KB/STM32-USBHID-MultimediaPilot/PCB/ALPS_Joystick.lib)(options "")(descr ""))
 )

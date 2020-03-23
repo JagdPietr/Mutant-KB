@@ -2481,17 +2481,17 @@ Text GLabel 4500 4200 0    50   Input ~ 0
 ROW3
 Text GLabel 4500 4850 0    50   Input ~ 0
 ROW4
-Text GLabel 3900 7500 2    50   Input ~ 0
+Text GLabel 3950 7500 2    50   Input ~ 0
 ROW5
-Text GLabel 3300 6900 1    50   Input ~ 0
+Text GLabel 3300 6850 1    50   Input ~ 0
 COL9
-Text GLabel 3400 6900 1    50   Input ~ 0
+Text GLabel 3400 6850 1    50   Input ~ 0
 COL10
-Text GLabel 3500 6900 1    50   Input ~ 0
+Text GLabel 3500 6850 1    50   Input ~ 0
 COL11
-Text GLabel 3600 6900 1    50   Input ~ 0
+Text GLabel 3600 6850 1    50   Input ~ 0
 COL12
-Text GLabel 3900 7300 2    50   Input ~ 0
+Text GLabel 3950 7300 2    50   Input ~ 0
 COL13
 $Comp
 L power:GND #PWR0117
@@ -2611,4 +2611,16 @@ Wire Wire Line
 	3050 6100 3100 6100
 Wire Wire Line
 	3050 6300 3100 6300
+Wire Wire Line
+	3900 7500 3950 7500
+Wire Wire Line
+	3900 7300 3950 7300
+Wire Wire Line
+	3600 6900 3600 6850
+Wire Wire Line
+	3500 6900 3500 6850
+Wire Wire Line
+	3400 6900 3400 6850
+Wire Wire Line
+	3300 6900 3300 6850
 $EndSCHEMATC
