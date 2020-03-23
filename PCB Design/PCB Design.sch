@@ -2603,4 +2603,12 @@ Wire Wire Line
 	3250 1500 3300 1500
 Wire Wire Line
 	3250 1400 3300 1400
+Text GLabel 3050 6100 0    50   Input ~ 0
+EA
+Text GLabel 3050 6300 0    50   Input ~ 0
+EB
+Wire Wire Line
+	3050 6100 3100 6100
+Wire Wire Line
+	3050 6300 3100 6300
 $EndSCHEMATC
