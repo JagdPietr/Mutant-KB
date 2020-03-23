@@ -7,3 +7,6 @@
 [submodule "fs-ei_kicad_libraries"]
 	path = fs-ei_kicad_libraries
 	url = https://github.com/JagdPietr/fs-ei_kicad_libraries.git
+[submodule "STM32-USBHID-MultimediaPilot"]
+	path = STM32-USBHID-MultimediaPilot
+	url = https://github.com/JagdPietr/STM32-USBHID-MultimediaPilot.git
