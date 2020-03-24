@@ -387,7 +387,7 @@ Wire Wire Line
 Wire Wire Line
 	750  2500 1250 2500
 $Comp
-L random-keyboard-parts:Molex-0548190589 USB1
+L PCB-Design-rescue:Molex-0548190589-random-keyboard-parts USB1
 U 1 1 5E77A0DF
 P 3850 1150
 F 0 "USB1" V 4387 1117 60  0000 C CNN
@@ -819,7 +819,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 2700 4850 2700
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R3-G1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R3-G1
 U 1 1 5E7C9DDC
 P 6950 3200
 F 0 "R3-G1" H 6983 3423 60  0000 C CNN
@@ -830,7 +830,7 @@ F 3 "" H 6325 3175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R3-H1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R3-H1
 U 1 1 5E7CA044
 P 7350 3200
 F 0 "R3-H1" H 7383 3423 60  0000 C CNN
@@ -841,7 +841,7 @@ F 3 "" H 6725 3175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R3-J1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R3-J1
 U 1 1 5E7CA31A
 P 7750 3200
 F 0 "R3-J1" H 7783 3423 60  0000 C CNN
@@ -852,7 +852,7 @@ F 3 "" H 7125 3175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R3-K1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R3-K1
 U 1 1 5E7CA636
 P 8150 3200
 F 0 "R3-K1" H 8183 3423 60  0000 C CNN
@@ -863,7 +863,7 @@ F 3 "" H 7525 3175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R3-L1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R3-L1
 U 1 1 5E7CA920
 P 8550 3200
 F 0 "R3-L1" H 8583 3423 60  0000 C CNN
@@ -874,7 +874,7 @@ F 3 "" H 7925 3175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R3-;1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R3-;1
 U 1 1 5E7CABE7
 P 8950 3200
 F 0 "R3-;1" H 8983 3423 60  0000 C CNN
@@ -885,7 +885,7 @@ F 3 "" H 8325 3175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R3-APOS1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R3-APOS1
 U 1 1 5E7CAF3F
 P 9350 3200
 F 0 "R3-APOS1" H 9383 3423 60  0000 C CNN
@@ -896,7 +896,7 @@ F 3 "" H 8725 3175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R3-ENT1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R3-ENT1
 U 1 1 5E7CB1F7
 P 9750 3200
 F 0 "R3-ENT1" H 9783 3423 60  0000 C CNN
@@ -1076,7 +1076,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 3350 4800 3350
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R4-LSFHT1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R4-LSFHT1
 U 1 1 5E7F4C77
 P 4900 3850
 F 0 "R4-LSFHT1" H 4933 4073 60  0000 C CNN
@@ -1087,7 +1087,7 @@ F 3 "" H 4275 3825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R4-Z1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R4-Z1
 U 1 1 5E7F4FC7
 P 5350 3850
 F 0 "R4-Z1" H 5383 4073 60  0000 C CNN
@@ -1098,7 +1098,7 @@ F 3 "" H 4725 3825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R4-X1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R4-X1
 U 1 1 5E7F5342
 P 5750 3850
 F 0 "R4-X1" H 5783 4073 60  0000 C CNN
@@ -1109,7 +1109,7 @@ F 3 "" H 5125 3825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R4-C1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R4-C1
 U 1 1 5E7F5708
 P 6150 3850
 F 0 "R4-C1" H 6183 4073 60  0000 C CNN
@@ -1120,7 +1120,7 @@ F 3 "" H 5525 3825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R4-V1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R4-V1
 U 1 1 5E7F59C5
 P 6550 3850
 F 0 "R4-V1" H 6583 4073 60  0000 C CNN
@@ -1131,7 +1131,7 @@ F 3 "" H 5925 3825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R4-B1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R4-B1
 U 1 1 5E7F5BAB
 P 6950 3850
 F 0 "R4-B1" H 6983 4073 60  0000 C CNN
@@ -1142,7 +1142,7 @@ F 3 "" H 6325 3825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R4-N1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R4-N1
 U 1 1 5E7F5F08
 P 7350 3850
 F 0 "R4-N1" H 7383 4073 60  0000 C CNN
@@ -1153,7 +1153,7 @@ F 3 "" H 6725 3825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R4-M1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R4-M1
 U 1 1 5E7F6099
 P 7750 3850
 F 0 "R4-M1" H 7783 4073 60  0000 C CNN
@@ -1164,7 +1164,7 @@ F 3 "" H 7125 3825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R4-CMMA1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R4-CMMA1
 U 1 1 5E7F62FC
 P 8150 3850
 F 0 "R4-CMMA1" H 8183 4073 60  0000 C CNN
@@ -1175,7 +1175,7 @@ F 3 "" H 7525 3825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R4-PRD1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R4-PRD1
 U 1 1 5E7F6505
 P 8550 3850
 F 0 "R4-PRD1" H 8583 4073 60  0000 C CNN
@@ -1186,7 +1186,7 @@ F 3 "" H 7925 3825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R4-QSTN1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R4-QSTN1
 U 1 1 5E7F66C3
 P 8950 3850
 F 0 "R4-QSTN1" H 8983 4073 60  0000 C CNN
@@ -1197,7 +1197,7 @@ F 3 "" H 8325 3825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R4-RSHFT1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R4-RSHFT1
 U 1 1 5E7F6AB6
 P 9350 3850
 F 0 "R4-RSHFT1" H 9383 4073 60  0000 C CNN
@@ -1364,7 +1364,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 4000 9300 4000
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R3-F1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R3-F1
 U 1 1 5E7C9A8E
 P 6550 3200
 F 0 "R3-F1" H 6583 3423 60  0000 C CNN
@@ -1375,7 +1375,7 @@ F 3 "" H 5925 3175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R3-D1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R3-D1
 U 1 1 5E7C96E1
 P 6150 3200
 F 0 "R3-D1" H 6183 3423 60  0000 C CNN
@@ -1386,7 +1386,7 @@ F 3 "" H 5525 3175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R3-S1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R3-S1
 U 1 1 5E7C90B4
 P 5750 3200
 F 0 "R3-S1" H 5783 3423 60  0000 C CNN
@@ -1397,7 +1397,7 @@ F 3 "" H 5125 3175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R3-A1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R3-A1
 U 1 1 5E7C8D98
 P 5350 3200
 F 0 "R3-A1" H 5383 3423 60  0000 C CNN
@@ -1408,7 +1408,7 @@ F 3 "" H 4725 3175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R3-CPSLK1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R3-CPSLK1
 U 1 1 5E7C8667
 P 4900 3200
 F 0 "R3-CPSLK1" H 4933 3423 60  0000 C CNN
@@ -1419,7 +1419,7 @@ F 3 "" H 4275 3175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R2-\1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R2-\1
 U 1 1 5E7A907F
 P 10150 2550
 F 0 "R2-\\1" H 10183 2773 60  0000 C CNN
@@ -1430,7 +1430,7 @@ F 3 "" H 9525 2525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R2-]1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R2-]1
 U 1 1 5E7A8CAF
 P 9750 2550
 F 0 "R2-]1" H 9783 2773 60  0000 C CNN
@@ -1441,7 +1441,7 @@ F 3 "" H 9125 2525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R2-[1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R2-[1
 U 1 1 5E7A897A
 P 9350 2550
 F 0 "R2-[1" H 9383 2773 60  0000 C CNN
@@ -1452,7 +1452,7 @@ F 3 "" H 8725 2525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R2-P1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R2-P1
 U 1 1 5E7A8609
 P 8950 2550
 F 0 "R2-P1" H 8983 2773 60  0000 C CNN
@@ -1463,7 +1463,7 @@ F 3 "" H 8325 2525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R2-O1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R2-O1
 U 1 1 5E7A8405
 P 8550 2550
 F 0 "R2-O1" H 8583 2773 60  0000 C CNN
@@ -1474,7 +1474,7 @@ F 3 "" H 7925 2525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R2-I1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R2-I1
 U 1 1 5E7A7FDB
 P 8150 2550
 F 0 "R2-I1" H 8183 2773 60  0000 C CNN
@@ -1485,7 +1485,7 @@ F 3 "" H 7525 2525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R2-U1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R2-U1
 U 1 1 5E7A7D2D
 P 7750 2550
 F 0 "R2-U1" H 7783 2773 60  0000 C CNN
@@ -1496,7 +1496,7 @@ F 3 "" H 7125 2525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R2-Y1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R2-Y1
 U 1 1 5E7A7A39
 P 7350 2550
 F 0 "R2-Y1" H 7383 2773 60  0000 C CNN
@@ -1507,7 +1507,7 @@ F 3 "" H 6725 2525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R2-T1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R2-T1
 U 1 1 5E7A770E
 P 6950 2550
 F 0 "R2-T1" H 6983 2773 60  0000 C CNN
@@ -1518,7 +1518,7 @@ F 3 "" H 6325 2525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R2-R1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R2-R1
 U 1 1 5E7A738E
 P 6550 2550
 F 0 "R2-R1" H 6583 2773 60  0000 C CNN
@@ -1529,7 +1529,7 @@ F 3 "" H 5925 2525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R2-E1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R2-E1
 U 1 1 5E7A6F46
 P 6150 2550
 F 0 "R2-E1" H 6183 2773 60  0000 C CNN
@@ -1540,7 +1540,7 @@ F 3 "" H 5525 2525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R2-W1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R2-W1
 U 1 1 5E7A6A68
 P 5750 2550
 F 0 "R2-W1" H 5783 2773 60  0000 C CNN
@@ -1551,7 +1551,7 @@ F 3 "" H 5125 2525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R2-Q1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R2-Q1
 U 1 1 5E7A658F
 P 5350 2550
 F 0 "R2-Q1" H 5383 2773 60  0000 C CNN
@@ -1562,7 +1562,7 @@ F 3 "" H 4725 2525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R2-TAB1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R2-TAB1
 U 1 1 5E7A608E
 P 4900 2550
 F 0 "R2-TAB1" H 4933 2773 60  0000 C CNN
@@ -1573,7 +1573,7 @@ F 3 "" H 4275 2525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R1-BKSPC1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R1-BKSPC1
 U 1 1 5E78FF38
 P 10150 1900
 F 0 "R1-BKSPC1" H 10183 2123 60  0000 C CNN
@@ -1584,7 +1584,7 @@ F 3 "" H 9525 1875 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R1-ADD1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R1-ADD1
 U 1 1 5E78F8E1
 P 9750 1900
 F 0 "R1-ADD1" H 9783 2123 60  0000 C CNN
@@ -1595,7 +1595,7 @@ F 3 "" H 9125 1875 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R1-DSH1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R1-DSH1
 U 1 1 5E78B1A7
 P 9350 1900
 F 0 "R1-DSH1" H 9383 2123 60  0000 C CNN
@@ -1606,7 +1606,7 @@ F 3 "" H 8725 1875 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R1-0
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R1-0
 U 1 1 5E78AEA4
 P 8950 1900
 F 0 "R1-0" H 8983 2123 60  0000 C CNN
@@ -1617,7 +1617,7 @@ F 3 "" H 8325 1875 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R1-9
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R1-9
 U 1 1 5E78AC50
 P 8550 1900
 F 0 "R1-9" H 8583 2123 60  0000 C CNN
@@ -1628,7 +1628,7 @@ F 3 "" H 7925 1875 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R1-8
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R1-8
 U 1 1 5E78A95C
 P 8150 1900
 F 0 "R1-8" H 8183 2123 60  0000 C CNN
@@ -1639,7 +1639,7 @@ F 3 "" H 7525 1875 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R1-6
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R1-6
 U 1 1 5E78A27A
 P 7350 1900
 F 0 "R1-6" H 7383 2123 60  0000 C CNN
@@ -1650,7 +1650,7 @@ F 3 "" H 6725 1875 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R1-5
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R1-5
 U 1 1 5E788004
 P 6950 1900
 F 0 "R1-5" H 6983 2123 60  0000 C CNN
@@ -1661,7 +1661,7 @@ F 3 "" H 6325 1875 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R1-4
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R1-4
 U 1 1 5E787C3E
 P 6550 1900
 F 0 "R1-4" H 6583 2123 60  0000 C CNN
@@ -1672,7 +1672,7 @@ F 3 "" H 5925 1875 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R1-3
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R1-3
 U 1 1 5E787760
 P 6150 1900
 F 0 "R1-3" H 6183 2123 60  0000 C CNN
@@ -1683,7 +1683,7 @@ F 3 "" H 5525 1875 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R1-2
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R1-2
 U 1 1 5E787408
 P 5750 1900
 F 0 "R1-2" H 5783 2123 60  0000 C CNN
@@ -1694,7 +1694,7 @@ F 3 "" H 5125 1875 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R1-1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R1-1
 U 1 1 5E7870B5
 P 5350 1900
 F 0 "R1-1" H 5383 2123 60  0000 C CNN
@@ -1705,7 +1705,7 @@ F 3 "" H 4725 1875 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R1-ESC1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R1-ESC1
 U 1 1 5E7845EA
 P 4900 1900
 F 0 "R1-ESC1" H 4933 2123 60  0000 C CNN
@@ -1957,7 +1957,7 @@ Connection ~ 9250 3550
 Wire Wire Line
 	9250 3550 9650 3550
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R1-7
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R1-7
 U 1 1 5E78A645
 P 7750 1900
 F 0 "R1-7" H 7783 2123 60  0000 C CNN
@@ -2019,7 +2019,7 @@ Connection ~ 9250 4200
 Wire Wire Line
 	9650 4000 9700 4000
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R4-UP1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R4-UP1
 U 1 1 5E7A4AA6
 P 9750 3850
 F 0 "R4-UP1" H 9783 4073 60  0000 C CNN
@@ -2030,7 +2030,7 @@ F 3 "" H 9125 3825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R5-LCTRL1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R5-LCTRL1
 U 1 1 5E95C8D7
 P 4900 4500
 F 0 "R5-LCTRL1" H 4933 4723 60  0000 C CNN
@@ -2041,7 +2041,7 @@ F 3 "" H 4275 4475 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R5-WK1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R5-WK1
 U 1 1 5E95D102
 P 5350 4500
 F 0 "R5-WK1" H 5383 4723 60  0000 C CNN
@@ -2052,7 +2052,7 @@ F 3 "" H 4725 4475 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R5-LALT1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R5-LALT1
 U 1 1 5E95D6A3
 P 5750 4500
 F 0 "R5-LALT1" H 5783 4723 60  0000 C CNN
@@ -2063,7 +2063,7 @@ F 3 "" H 5125 4475 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R5-SPCE1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R5-SPCE1
 U 1 1 5E95DBBD
 P 6150 4500
 F 0 "R5-SPCE1" H 6183 4723 60  0000 C CNN
@@ -2074,7 +2074,7 @@ F 3 "" H 5525 4475 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R5-MENU1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R5-MENU1
 U 1 1 5E95DE70
 P 6550 4500
 F 0 "R5-MENU1" H 6583 4723 60  0000 C CNN
@@ -2085,7 +2085,7 @@ F 3 "" H 5925 4475 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R5-FN1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R5-FN1
 U 1 1 5E95E664
 P 6950 4500
 F 0 "R5-FN1" H 6983 4723 60  0000 C CNN
@@ -2096,7 +2096,7 @@ F 3 "" H 6325 4475 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R5-LEFT1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R5-LEFT1
 U 1 1 5E95ECEC
 P 7350 4500
 F 0 "R5-LEFT1" H 7383 4723 60  0000 C CNN
@@ -2107,7 +2107,7 @@ F 3 "" H 6725 4475 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R5-RIGHT1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R5-RIGHT1
 U 1 1 5E95F3A1
 P 8150 4500
 F 0 "R5-RIGHT1" H 8183 4723 60  0000 C CNN
@@ -2118,7 +2118,7 @@ F 3 "" H 7525 4475 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED R5-DOWN1
+L PCB-Design-rescue:MX-NoLED-MX_Alps_Hybrid R5-DOWN1
 U 1 1 5E95F111
 P 7750 4500
 F 0 "R5-DOWN1" H 7783 4723 60  0000 C CNN
@@ -2292,14 +2292,10 @@ F 3 "" H 5100 850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4150 850  5100 850 
-Text GLabel 3650 2600 2    50   Input ~ 0
+Text GLabel 3650 3900 2    50   Input ~ 0
 SCL
-Text GLabel 3650 2700 2    50   Input ~ 0
+Text GLabel 3650 3800 2    50   Input ~ 0
 SDA
-Wire Wire Line
-	3250 2600 3650 2600
-Wire Wire Line
-	3250 2700 3650 2700
 $Comp
 L power:GND #PWR0115
 U 1 1 5EEC9F16
@@ -2477,7 +2473,7 @@ Text GLabel 3300 2400 2    50   Input ~ 0
 ROW0
 Text GLabel 3300 2800 2    50   Input ~ 0
 COL5
-Text GLabel 3300 2900 2    50   Input ~ 0
+Text GLabel 3300 4300 2    50   Input ~ 0
 COL1
 Text GLabel 3300 3000 2    50   Input ~ 0
 ROW3
@@ -2485,9 +2481,9 @@ Text GLabel 3300 3100 2    50   Input ~ 0
 COL11
 Text GLabel 3300 3200 2    50   Input ~ 0
 COL9
-Text GLabel 3300 3800 2    50   Input ~ 0
+Text GLabel 3300 2600 2    50   Input ~ 0
 COL10
-Text GLabel 3300 3900 2    50   Input ~ 0
+Text GLabel 3300 2700 2    50   Input ~ 0
 COL13
 Text GLabel 3300 4000 2    50   Input ~ 0
 ROW2
@@ -2499,10 +2495,8 @@ Text GLabel 3550 1900 2    50   Input ~ 0
 EA
 Wire Wire Line
 	3250 1900 3550 1900
-Text GLabel 3550 4300 2    50   Input ~ 0
+Text GLabel 3550 2900 2    50   Input ~ 0
 EB
-Wire Wire Line
-	3550 4300 3250 4300
 Wire Wire Line
 	3250 4200 3300 4200
 Wire Wire Line
@@ -2510,17 +2504,11 @@ Wire Wire Line
 Wire Wire Line
 	3250 4000 3300 4000
 Wire Wire Line
-	3250 3900 3300 3900
-Wire Wire Line
-	3250 3800 3300 3800
-Wire Wire Line
 	3250 3200 3300 3200
 Wire Wire Line
 	3250 3100 3300 3100
 Wire Wire Line
 	3250 3000 3300 3000
-Wire Wire Line
-	3250 2900 3300 2900
 Wire Wire Line
 	3250 2800 3300 2800
 Wire Wire Line
@@ -2546,7 +2534,7 @@ EA
 Text GLabel 5700 6550 2    50   Input ~ 0
 EB
 $Comp
-L ALPS_Joystick:RKJXT1F42001 SRotary4
+L PCB-Design-rescue:RKJXT1F42001-ALPS_Joystick SRotary4
 U 1 1 5E7A0FF0
 P 5150 6450
 F 0 "SRotary4" H 5150 7065 50  0000 C CNN
@@ -2651,4 +2639,16 @@ Text GLabel 3300 3300 2    50   Input ~ 0
 ROW5
 Wire Wire Line
 	3250 3300 3300 3300
+Wire Wire Line
+	3250 3800 3650 3800
+Wire Wire Line
+	3250 2600 3300 2600
+Wire Wire Line
+	3250 3900 3650 3900
+Wire Wire Line
+	3250 2700 3300 2700
+Wire Wire Line
+	3250 2900 3550 2900
+Wire Wire Line
+	3250 4300 3300 4300
 $EndSCHEMATC
