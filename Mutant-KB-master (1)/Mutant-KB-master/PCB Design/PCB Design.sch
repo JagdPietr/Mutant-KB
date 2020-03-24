@@ -2459,11 +2459,11 @@ Text GLabel 3300 2300 2    50   Input ~ 0
 COL4
 Text GLabel 3300 1900 2    50   Input ~ 0
 COL6
-Text GLabel 3300 1700 2    50   Input ~ 0
+Text GLabel 3300 2100 2    50   Input ~ 0
 COL12
 Text GLabel 3300 3100 2    50   Input ~ 0
 ROW4
-Text GLabel 3300 1600 2    50   Input ~ 0
+Text GLabel 3300 1400 2    50   Input ~ 0
 COL7
 Text GLabel 3300 1800 2    50   Input ~ 0
 ROW1
@@ -2477,11 +2477,11 @@ Text GLabel 3300 4100 2    50   Input ~ 0
 COL1
 Text GLabel 3300 3000 2    50   Input ~ 0
 ROW3
-Text GLabel 3300 2100 2    50   Input ~ 0
+Text GLabel 3300 1700 2    50   Input ~ 0
 COL11
-Text GLabel 3300 3200 2    50   Input ~ 0
+Text GLabel 3300 1600 2    50   Input ~ 0
 COL9
-Text GLabel 3300 2800 2    50   Input ~ 0
+Text GLabel 3300 3200 2    50   Input ~ 0
 COL10
 Text GLabel 3300 2900 2    50   Input ~ 0
 COL13
@@ -2491,7 +2491,7 @@ Text GLabel 3300 4300 2    50   Input ~ 0
 COL3
 Text GLabel 3300 1500 2    50   Input ~ 0
 COL8
-Text GLabel 3550 2700 2    50   Input ~ 0
+Text GLabel 3550 2800 2    50   Input ~ 0
 EA
 Text GLabel 3550 2600 2    50   Input ~ 0
 EB
@@ -2631,7 +2631,7 @@ Wire Wire Line
 	1000 6000 1200 6000
 Wire Wire Line
 	1000 6100 1200 6100
-Text GLabel 3300 1400 2    50   Input ~ 0
+Text GLabel 3300 2700 2    50   Input ~ 0
 ROW5
 Wire Wire Line
 	3250 3300 3300 3300
@@ -2646,9 +2646,9 @@ Wire Wire Line
 Wire Wire Line
 	3250 2600 3550 2600
 Wire Wire Line
-	3250 2800 3300 2800
-Wire Wire Line
-	3250 2700 3550 2700
-Wire Wire Line
 	3250 2900 3300 2900
+Wire Wire Line
+	3250 2800 3550 2800
+Wire Wire Line
+	3250 2700 3300 2700
 $EndSCHEMATC
