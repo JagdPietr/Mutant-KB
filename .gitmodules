@@ -10,3 +10,6 @@
 [submodule "STM32-USBHID-MultimediaPilot"]
 	path = STM32-USBHID-MultimediaPilot
 	url = https://github.com/JagdPietr/STM32-USBHID-MultimediaPilot.git
+[submodule "Mutant-KB-master (1)/Mutant-KB-master/PCB Design/Mutant-KB"]
+	path = Mutant-KB-master (1)/Mutant-KB-master/PCB Design/Mutant-KB
+	url = https://github.com/JagdPietr/Mutant-KB.git
