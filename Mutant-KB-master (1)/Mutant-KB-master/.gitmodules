@@ -1,0 +1,12 @@
+[submodule "MX_Alps_Hybrid.pretty"]
+	path = MX_Alps_Hybrid.pretty
+	url = https://github.com/ai03-2725/MX_Alps_Hybrid.pretty
+[submodule "random-keyboard-parts.pretty"]
+	path = random-keyboard-parts.pretty
+	url = https://github.com/ai03-2725/random-keyboard-parts.pretty
+[submodule "fs-ei_kicad_libraries"]
+	path = fs-ei_kicad_libraries
+	url = https://github.com/JagdPietr/fs-ei_kicad_libraries.git
+[submodule "STM32-USBHID-MultimediaPilot"]
+	path = STM32-USBHID-MultimediaPilot
+	url = https://github.com/JagdPietr/STM32-USBHID-MultimediaPilot.git
