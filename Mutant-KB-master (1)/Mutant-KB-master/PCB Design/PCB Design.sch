@@ -2461,7 +2461,7 @@ Text GLabel 3300 1900 2    50   Input ~ 0
 COL6
 Text GLabel 3300 1700 2    50   Input ~ 0
 COL12
-Text GLabel 3300 2100 2    50   Input ~ 0
+Text GLabel 3300 3100 2    50   Input ~ 0
 ROW4
 Text GLabel 3300 1600 2    50   Input ~ 0
 COL7
@@ -2477,7 +2477,7 @@ Text GLabel 3300 4100 2    50   Input ~ 0
 COL1
 Text GLabel 3300 3000 2    50   Input ~ 0
 ROW3
-Text GLabel 3300 3100 2    50   Input ~ 0
+Text GLabel 3300 2100 2    50   Input ~ 0
 COL11
 Text GLabel 3300 3200 2    50   Input ~ 0
 COL9
