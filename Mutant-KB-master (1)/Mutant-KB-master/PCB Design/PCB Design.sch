@@ -2634,8 +2634,6 @@ Wire Wire Line
 Text GLabel 3300 2700 2    50   Input ~ 0
 ROW5
 Wire Wire Line
-	3250 3300 3300 3300
-Wire Wire Line
 	3250 3800 3650 3800
 Wire Wire Line
 	3250 3900 3650 3900
@@ -2704,4 +2702,8 @@ Wire Wire Line
 	2900 5800 3000 5800
 Wire Wire Line
 	2900 5900 3250 5900
+Text GLabel 3950 3000 1    50   Input ~ 0
+MOSI
+Wire Wire Line
+	3250 3300 3300 3300
 $EndSCHEMATC
