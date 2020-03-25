@@ -400,43 +400,43 @@ $EndComp
 $Comp
 L power:VCC #PWR0111
 U 1 1 5E77B1DF
-P 4200 950
-F 0 "#PWR0111" H 4200 800 50  0001 C CNN
-F 1 "VCC" H 4217 1123 50  0000 C CNN
-F 2 "" H 4200 950 50  0001 C CNN
-F 3 "" H 4200 950 50  0001 C CNN
-	1    4200 950 
+P 4750 950
+F 0 "#PWR0111" H 4750 800 50  0001 C CNN
+F 1 "VCC" H 4767 1123 50  0000 C CNN
+F 2 "" H 4750 950 50  0001 C CNN
+F 3 "" H 4750 950 50  0001 C CNN
+	1    4750 950 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Polyfuse_Small F1
 U 1 1 5E77B82C
-P 4450 950
-F 0 "F1" V 4245 950 50  0000 C CNN
-F 1 "500mA" V 4336 950 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 4500 750 50  0001 L CNN
-F 3 "~" H 4450 950 50  0001 C CNN
-	1    4450 950 
+P 5350 950
+F 0 "F1" V 5145 950 50  0000 C CNN
+F 1 "500mA" V 5236 950 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 5400 750 50  0001 L CNN
+F 3 "~" H 5350 950 50  0001 C CNN
+	1    5350 950 
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR0112
 U 1 1 5E77C97F
-P 4850 950
-F 0 "#PWR0112" H 4850 800 50  0001 C CNN
-F 1 "+5V" H 4865 1123 50  0000 C CNN
-F 2 "" H 4850 950 50  0001 C CNN
-F 3 "" H 4850 950 50  0001 C CNN
-	1    4850 950 
+P 5550 950
+F 0 "#PWR0112" H 5550 800 50  0001 C CNN
+F 1 "+5V" H 5565 1123 50  0000 C CNN
+F 2 "" H 5550 950 50  0001 C CNN
+F 3 "" H 5550 950 50  0001 C CNN
+	1    5550 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 950  4200 950 
+	4150 950  4750 950 
 Wire Wire Line
-	4200 950  4350 950 
-Connection ~ 4200 950 
+	4750 950  5250 950 
+Connection ~ 4750 950 
 Wire Wire Line
-	4550 950  4850 950 
+	5450 950  5550 950 
 $Comp
 L power:GND #PWR0113
 U 1 1 5E77F556
@@ -2307,17 +2307,6 @@ F 3 "" H 800 6300 50  0001 C CNN
 	1    800  6300
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VBUS #PWR0116
-U 1 1 5EECB14B
-P 600 6200
-F 0 "#PWR0116" H 600 6050 50  0001 C CNN
-F 1 "VBUS" H 615 6373 50  0000 C CNN
-F 2 "" H 600 6200 50  0001 C CNN
-F 3 "" H 600 6200 50  0001 C CNN
-	1    600  6200
-	1    0    0    -1  
-$EndComp
 Text GLabel 1000 6100 0    50   Input ~ 0
 SCL
 Text GLabel 1000 6000 0    50   Input ~ 0
@@ -2453,7 +2442,7 @@ F 3 "" H 5050 7350 50  0001 C CNN
 	1    5050 7350
 	1    0    0    -1  
 $EndComp
-Text GLabel 3300 4000 2    50   Input ~ 0
+Text GLabel 4150 4000 2    50   Input ~ 0
 COL0
 Text GLabel 3300 2300 2    50   Input ~ 0
 COL4
@@ -2465,11 +2454,11 @@ Text GLabel 3300 3100 2    50   Input ~ 0
 ROW4
 Text GLabel 3300 1400 2    50   Input ~ 0
 COL7
-Text GLabel 3300 1800 2    50   Input ~ 0
+Text GLabel 4100 1800 2    50   Input ~ 0
 ROW1
 Text GLabel 3300 4200 2    50   Input ~ 0
 COL2
-Text GLabel 3300 2400 2    50   Input ~ 0
+Text GLabel 4100 2400 2    50   Input ~ 0
 ROW0
 Text GLabel 3300 2000 2    50   Input ~ 0
 COL5
@@ -2485,7 +2474,7 @@ Text GLabel 3300 3200 2    50   Input ~ 0
 COL10
 Text GLabel 3300 2900 2    50   Input ~ 0
 COL13
-Text GLabel 3300 3300 2    50   Input ~ 0
+Text GLabel 4150 3300 2    50   Input ~ 0
 ROW2
 Text GLabel 3300 4300 2    50   Input ~ 0
 COL3
@@ -2500,7 +2489,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 4100 3300 4100
 Wire Wire Line
-	3250 4000 3300 4000
+	3250 4000 4050 4000
 Wire Wire Line
 	3250 3200 3300 3200
 Wire Wire Line
@@ -2508,15 +2497,13 @@ Wire Wire Line
 Wire Wire Line
 	3250 3000 3300 3000
 Wire Wire Line
-	3250 2400 3300 2400
-Wire Wire Line
 	3250 2300 3300 2300
 Wire Wire Line
 	3250 2100 3300 2100
 Wire Wire Line
 	3250 2000 3300 2000
 Wire Wire Line
-	3250 1800 3300 1800
+	3250 1800 4000 1800
 Wire Wire Line
 	3250 1700 3300 1700
 Wire Wire Line
@@ -2702,8 +2689,47 @@ Wire Wire Line
 	2900 5800 3000 5800
 Wire Wire Line
 	2900 5900 3250 5900
-Text GLabel 3950 3000 1    50   Input ~ 0
+Text GLabel 4050 3950 1    50   Input ~ 0
 MOSI
 Wire Wire Line
-	3250 3300 3300 3300
+	3250 3300 4050 3300
+$Comp
+L power:+5V #PWR0116
+U 1 1 5EA0010D
+P 600 6200
+F 0 "#PWR0116" H 600 6050 50  0001 C CNN
+F 1 "+5V" H 615 6373 50  0000 C CNN
+F 2 "" H 600 6200 50  0001 C CNN
+F 3 "" H 600 6200 50  0001 C CNN
+	1    600  6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3950 4050 4000
+Connection ~ 4050 4000
+Wire Wire Line
+	4050 4000 4150 4000
+Wire Wire Line
+	3250 2400 4000 2400
+Text GLabel 4000 2350 1    50   Input ~ 0
+NRST
+Wire Wire Line
+	4000 2350 4000 2400
+Connection ~ 4000 2400
+Wire Wire Line
+	4000 2400 4100 2400
+Text GLabel 4000 1750 1    50   Input ~ 0
+SCLK
+Wire Wire Line
+	4000 1750 4000 1800
+Connection ~ 4000 1800
+Wire Wire Line
+	4000 1800 4100 1800
+Text GLabel 4050 3250 1    50   Input ~ 0
+MISO
+Wire Wire Line
+	4050 3250 4050 3300
+Connection ~ 4050 3300
+Wire Wire Line
+	4050 3300 4150 3300
 $EndSCHEMATC
