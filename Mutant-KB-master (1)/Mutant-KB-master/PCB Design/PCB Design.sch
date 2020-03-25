@@ -2438,7 +2438,7 @@ F 3 "" H 5050 7350 50  0001 C CNN
 $EndComp
 Text GLabel 4150 4000 2    50   Input ~ 0
 COL0
-Text GLabel 3300 2300 2    50   Input ~ 0
+Text GLabel 3700 2300 2    50   Input ~ 0
 COL4
 Text GLabel 3300 1900 2    50   Input ~ 0
 COL6
@@ -2460,15 +2460,15 @@ Text GLabel 3300 4100 2    50   Input ~ 0
 COL1
 Text GLabel 3300 3000 2    50   Input ~ 0
 ROW3
-Text GLabel 3300 1700 2    50   Input ~ 0
+Text GLabel 3300 3200 2    50   Input ~ 0
 COL11
 Text GLabel 3300 1600 2    50   Input ~ 0
 COL9
-Text GLabel 3300 3200 2    50   Input ~ 0
+Text GLabel 4150 3300 2    50   Input ~ 0
 COL10
 Text GLabel 3300 2900 2    50   Input ~ 0
 COL13
-Text GLabel 4150 3300 2    50   Input ~ 0
+Text GLabel 3300 1700 2    50   Input ~ 0
 ROW2
 Text GLabel 3300 4300 2    50   Input ~ 0
 COL3
@@ -2491,7 +2491,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 3000 3300 3000
 Wire Wire Line
-	3250 2300 3300 2300
+	3250 2300 3650 2300
 Wire Wire Line
 	3250 2100 3300 2100
 Wire Wire Line
@@ -2685,8 +2685,6 @@ Wire Wire Line
 	2900 5900 3250 5900
 Text GLabel 4050 3950 1    50   Input ~ 0
 MOSI
-Wire Wire Line
-	3250 3300 4050 3300
 $Comp
 L power:+5V #PWR0116
 U 1 1 5EA0010D
@@ -2719,13 +2717,8 @@ Wire Wire Line
 Connection ~ 4000 1800
 Wire Wire Line
 	4000 1800 4100 1800
-Text GLabel 4050 3250 1    50   Input ~ 0
+Text GLabel 3650 2200 1    50   Input ~ 0
 MISO
-Wire Wire Line
-	4050 3250 4050 3300
-Connection ~ 4050 3300
-Wire Wire Line
-	4050 3300 4150 3300
 Wire Wire Line
 	2150 4800 2150 4700
 Wire Wire Line
@@ -2735,4 +2728,11 @@ Wire Wire Line
 NoConn ~ 3250 3600
 NoConn ~ 2050 2000
 NoConn ~ 4150 1250
+Wire Wire Line
+	3250 3300 4150 3300
+Wire Wire Line
+	3650 2200 3650 2300
+Connection ~ 3650 2300
+Wire Wire Line
+	3650 2300 3700 2300
 $EndSCHEMATC
