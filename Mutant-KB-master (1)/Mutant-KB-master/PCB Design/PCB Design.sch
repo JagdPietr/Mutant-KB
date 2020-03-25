@@ -2651,4 +2651,57 @@ Wire Wire Line
 	3250 2800 3550 2800
 Wire Wire Line
 	3250 2700 3300 2700
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J2
+U 1 1 5E7C8626
+P 2700 5800
+F 0 "J2" H 2750 5475 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 2750 5566 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 2700 5800 50  0001 C CNN
+F 3 "~" H 2700 5800 50  0001 C CNN
+	1    2700 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0119
+U 1 1 5E7FDD20
+P 3250 5700
+F 0 "#PWR0119" H 3250 5550 50  0001 C CNN
+F 1 "+5V" H 3265 5873 50  0000 C CNN
+F 2 "" H 3250 5700 50  0001 C CNN
+F 3 "" H 3250 5700 50  0001 C CNN
+	1    3250 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5E7FE77F
+P 3250 5900
+F 0 "#PWR0120" H 3250 5650 50  0001 C CNN
+F 1 "GND" H 3255 5727 50  0000 C CNN
+F 2 "" H 3250 5900 50  0001 C CNN
+F 3 "" H 3250 5900 50  0001 C CNN
+	1    3250 5900
+	1    0    0    -1  
+$EndComp
+Text GLabel 3000 5800 2    50   Input ~ 0
+MOSI
+Text GLabel 2300 5700 0    50   Input ~ 0
+MISO
+Text GLabel 2300 5800 0    50   Input ~ 0
+SCLK
+Text GLabel 2300 5900 0    50   Input ~ 0
+NRST
+Wire Wire Line
+	2300 5700 2400 5700
+Wire Wire Line
+	2300 5800 2400 5800
+Wire Wire Line
+	2300 5900 2400 5900
+Wire Wire Line
+	2900 5700 3250 5700
+Wire Wire Line
+	2900 5800 3000 5800
+Wire Wire Line
+	2900 5900 3250 5900
 $EndSCHEMATC
