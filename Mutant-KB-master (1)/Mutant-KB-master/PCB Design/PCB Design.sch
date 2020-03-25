@@ -55,8 +55,6 @@ F 3 "" H 2150 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 4800 2150 4700
-Wire Wire Line
 	2150 4700 2550 4700
 Wire Wire Line
 	2550 4700 2650 4700
@@ -85,8 +83,6 @@ F 3 "" H 4000 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3250 3500 3600 3500
-Wire Wire Line
-	3800 3500 4000 3500
 $Comp
 L Device:R_Small R2
 U 1 1 5E7605F0
@@ -347,8 +343,6 @@ Wire Wire Line
 	1550 1400 1500 1400
 Wire Wire Line
 	1500 1400 1500 1350
-Wire Wire Line
-	1500 1350 1350 1350
 $Comp
 L Device:R_Small R1
 U 1 1 5E7761AD
@@ -2732,4 +2726,13 @@ Wire Wire Line
 Connection ~ 4050 3300
 Wire Wire Line
 	4050 3300 4150 3300
+Wire Wire Line
+	2150 4800 2150 4700
+Wire Wire Line
+	1500 1350 1350 1350
+Wire Wire Line
+	3800 3500 4000 3500
+NoConn ~ 3250 3600
+NoConn ~ 2050 2000
+NoConn ~ 4150 1250
 $EndSCHEMATC
