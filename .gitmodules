@@ -13,3 +13,6 @@
 [submodule "Mutant-KB-master (1)/Mutant-KB-master/PCB Design/Mutant-KB"]
 	path = Mutant-KB-master (1)/Mutant-KB-master/PCB Design/Mutant-KB
 	url = https://github.com/JagdPietr/Mutant-KB.git
+[submodule "MX_Alps_Hybrid-b2517004a92a2ea354670c713a1530817f9da6df/MX_Alps_Hybrid"]
+	path = MX_Alps_Hybrid-b2517004a92a2ea354670c713a1530817f9da6df/MX_Alps_Hybrid
+	url = https://github.com/ai03-2725/MX_Alps_Hybrid.git
