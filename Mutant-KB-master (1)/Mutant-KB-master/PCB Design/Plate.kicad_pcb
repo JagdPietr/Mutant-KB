@@ -91,7 +91,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "Mutant-KB/Gerbers/Gerbers2/DXF/Plate/PlateKB/Fin/"))
+      (outputdirectory "Mutant-KB/Gerbers/Final Batch/Plate/"))
   )
 
   (net 0 "")
