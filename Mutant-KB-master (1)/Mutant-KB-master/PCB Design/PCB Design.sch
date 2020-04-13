@@ -2714,7 +2714,6 @@ Wire Wire Line
 	3800 3500 4000 3500
 NoConn ~ 3250 3600
 NoConn ~ 2050 2000
-NoConn ~ 4150 1250
 Wire Wire Line
 	3250 3300 4150 3300
 Wire Wire Line
@@ -2807,4 +2806,46 @@ Wire Wire Line
 Wire Wire Line
 	5900 5000 5850 5000
 Connection ~ 5900 4450
+$Comp
+L Connector:Conn_01x05_Male J3
+U 1 1 5E9100B8
+P 6950 900
+F 0 "J3" H 6922 832 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 6922 923 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 6950 900 50  0001 C CNN
+F 3 "~" H 6950 900 50  0001 C CNN
+	1    6950 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5E910EFF
+P 6600 1100
+F 0 "#PWR021" H 6600 850 50  0001 C CNN
+F 1 "GND" H 6605 927 50  0000 C CNN
+F 2 "" H 6600 1100 50  0001 C CNN
+F 3 "" H 6600 1100 50  0001 C CNN
+	1    6600 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1100 6750 1100
+Text GLabel 4150 1250 2    50   Input ~ 0
+ID
+Text GLabel 6600 1000 0    50   Input ~ 0
+ID
+Wire Wire Line
+	6600 1000 6750 1000
+Text GLabel 6600 900  0    50   Input ~ 0
+D+
+Text GLabel 6600 800  0    50   Input ~ 0
+D-
+Text GLabel 6600 700  0    50   Input ~ 0
+VBUS
+Wire Wire Line
+	6600 700  6750 700 
+Wire Wire Line
+	6600 800  6750 800 
+Wire Wire Line
+	6600 900  6750 900 
 $EndSCHEMATC
